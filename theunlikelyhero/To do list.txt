@@ -1,0 +1,10 @@
+ANGARATO
+1. Create interaction with NPC - character can walk up to NPC, press space bar and dialogue appears. DEADLINE 7 Nov
+2. Make camera follow character. DEADLINE 7 Nov
+2. Create dialogue options for character to choose DEADLINE 15 Nov
+3. Work out how to do inventory DEADLINE 15 Nov
+
+CAMPANA
+1. Create back view walking animation DEADLINE 7 Nov
+2. Create background for Tweepleton DEADLINE 7 Nov
+3. Create basic inventory art DEADLINE 7 Nov
