@@ -18,16 +18,19 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create
 
 function preload() {
 
-    game.load.spritesheet('player', 'assets/player2.png', 120, 180);
+        game.load.image('bg', 'assets/levels/tweepleton/A3.png');
+        game.load.spritesheet('player', 'assets/player2.png', 120, 180);
 
 }
-
+ var bg;
  var player;
  var controls;
  
 function create() {
     
 game.physics.startSystem(Phaser.Physics.ARCADE);
+ 
+ bg = game.add.sprite(0,0, 'bg');
  
  player = game.add.sprite(100,100, 'player');
  game.physics.arcade.enable(player);
